@@ -13,20 +13,16 @@ margin: 0;
   box-shadow: 0 25px 10px rgba(57, 32, 156, 0.15);
 }
 .name .img {
-    overflow: hidden;
-    position:absolute; /* Mantenemos la posición absoluta si quieres que esté flotando en esa esquina */
-    top: 35%;
-    right: 8%;
-    width: 180px;  /* Ancho y alto iguales para un círculo */
+    position: absolute;   
+    top: 29%;
+    right: 9%;
+    width: 180px;
     height: 180px;
-    border-radius: 50%; /* 50% para que sea un círculo perfecto */
-    /* transform: skewY(-8deg); <--- ELIMINADO para quitar el sesgo */
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+  box-shadow:  18px 6px rgba(57, 32, 156, 0.15);}
     
-    /* Agregamos Flexbox para centrar el contenido (la imagen) */
-    display: flex;
-    justify-content: center; /* Centrado horizontal */
-    align-items: center; /* Centrado vertical */
-}
 
 .name .img img {
     /* Ajustamos el tamaño para que la imagen ocupe el contenedor (o un poco más) */
@@ -81,7 +77,7 @@ background: #2c3e50;
     padding: 22px;
     padding-right: 8;
     border-radius: 20px;
-      box-shadow: 0 25px 10px rgba(57, 32, 156, 0.15);
+      box-shadow: 0 25px 20px rgba(57, 32, 156, 0.15);
    }
 
    .info .tituloseccion {
@@ -188,4 +184,5 @@ margin-top: -2%;
 
     
  
+
 }
